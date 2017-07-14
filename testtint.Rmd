@@ -20,6 +20,10 @@ options(htmltools.dir.version = FALSE)
 
 # Before We Get Started...
 
+```{r iris}
+datatable(iris)
+```
+
 
 ```{r fig-nocap-margin-first, fig.margin=TRUE, fig.width=4, fig.height=4, cache=TRUE, echo=FALSE}
 library(ggplot2)
